@@ -12,6 +12,7 @@
 
 void test_callback(void* user, float* real_imag, size_t count) {
     printf("callback\n");
+    printf("count: %zu\n", count);
 }
 
 int main() {
